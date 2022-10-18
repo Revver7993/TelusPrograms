@@ -1,0 +1,18 @@
+package com.Passport;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class Applicant {
+	
+	Log logger = LogFactory.getLog(Applicant.class);
+	
+	public void pEligibility() throws InvalidAge, Nationality, CriminalRecord {
+		boolean eligible=checkApplicantforPass();
+	}
+	
+	private String name;
+	private int age;
+	private int 
+
+}

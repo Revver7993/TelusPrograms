@@ -1,0 +1,13 @@
+
+c
+java:S1854"7Remove this useless assignment to local variable "sal".(ﬁ˘¢êH¶
+RMAJORZ
+CODE_SMELL
+T
+java:S1481"(Remove this unused "sal" local variable.(ﬁ˘¢êHß
+RMINORZ
+CODE_SMELL
+c	java:S106
+"9Replace this use of System.out or System.err by a logger.(‰§ºH©
+RMAJORZ
+CODE_SMELL

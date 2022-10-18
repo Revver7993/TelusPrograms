@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="InternBonus.DiwaliBonus"/>
+    <fullyQualifiedTypeName name="InternBonus.DussheraBonus"/>
+    <fullyQualifiedTypeName name="com.List.LinkedListStudent"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="com.Player.Player"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.builder.fluent.Configurations"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.PropertiesConfiguration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+</qualifiedTypeNameHistroy>

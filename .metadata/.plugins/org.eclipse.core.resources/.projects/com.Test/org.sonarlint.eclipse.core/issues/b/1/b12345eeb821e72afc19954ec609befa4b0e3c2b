@@ -1,0 +1,15 @@
+
+{
+java:S1192"GDefine a constant instead of duplicating this literal "Indian" 3 times.(†ıûøÿÿÿÿHÒRCRITICALZ
+CODE_SMELL
+‘
+java:S1192"cDefine a constant instead of duplicating this literal "Error while applying Passport for " 4 times.(ğŒš*HÖRCRITICALZ
+CODE_SMELL
+j
+java:S1854"9Remove this useless assignment to local variable "aList".( Ê³ùÿÿÿÿHÛRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÅ”HÜRMINORZ
+CODE_SMELL
+[
+java:S1481"*Remove this unused "aList" local variable.( Ê³ùÿÿÿÿHİRMINORZ
+CODE_SMELL

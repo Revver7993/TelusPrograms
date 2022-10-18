@@ -1,0 +1,41 @@
+package com.DlVerification;
+
+public class Applicant {
+	
+	int age;
+	boolean policeVerification;
+	boolean medicalVerification;
+	public Applicant(int age, boolean policeVerification, boolean medicalVerification) {
+		super();
+		this.age = age;
+		this.policeVerification = policeVerification;
+		this.medicalVerification = medicalVerification;
+		
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public boolean getPoliceVerification() {
+		return policeVerification;
+	}
+	public void setPoliceVerification(boolean policeVerification) {
+		this.policeVerification = policeVerification;
+	}
+	public boolean getMedicalVerification() {
+		return medicalVerification;
+	}
+	public void setMedicalVerification(boolean medicalVerification) {
+		this.medicalVerification = medicalVerification;
+	}
+	@Override
+	public String toString() {
+		return "Applicant [age=" + age + ", policeVerification=" + policeVerification + ", medicalVerification="
+				+ medicalVerification + "]";
+	}
+	
+	
+
+}

@@ -1,0 +1,43 @@
+package com.Passport;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+
+public class MainClass {
+
+	public static void main(String[] args) throws InvalidAge, Nationality, CriminalRecord{
+		Log logger=LogFactory.getLog(MainClass.class);
+		
+		
+		PassportApplicant a1=new PassportApplicant("Jack", 25, "Indian", "not clear");
+		PassportApplicant a2=new PassportApplicant("Bob", 30, "Indian", "not clear");
+		PassportApplicant a3=new PassportApplicant("Abhishek", 22, "Indian", "clear");
+		PassportApplicant a4=new PassportApplicant("Mohan", 23, "not Indian", "clear");
+		
+		
+		try {
+			a1.passportEligibility();}
+			catch (Exception e){
+				logger.error("Error occurred while applying Passport for "+a1.getName());			
+			}
+			try {
+			a2.passportEligibility();}
+			catch (Exception e) {
+				logger.error("Error occurred while applying Passport for "+a2.getName());
+			}
+			try {
+			a3.passportEligibility();}
+			catch (Exception e) {
+				logger.error("Error occurred while applying Passport for "+a3.getName());
+				}
+			try {
+			a4.passportEligibility();}
+			catch (Exception e) {
+				logger.error("Error occurred while applying Passport for "+a4.getName());
+				}
+			
+	}
+
+}
+

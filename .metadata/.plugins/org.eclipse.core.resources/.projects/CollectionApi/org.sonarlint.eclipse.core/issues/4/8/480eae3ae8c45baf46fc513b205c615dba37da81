@@ -1,0 +1,17 @@
+
+b
+java:S3740	"/Provide the parametrized type for this generic.(Á³öÆ8¯ª‰‚¼0HœRMAJORZ
+CODE_SMELL
+h
+java:S1481"0Remove this unused "listOfNAmes" local variable.(ä÷áÄüÿÿÿÿ8Ÿãß‚¼0H¨RMINORZ
+CODE_SMELL
+b
+java:S3740	"/Provide the parametrized type for this generic.(Á³öÆ8¯ª‰‚¼0H›RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áÀ…íH•RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8¯ª‰‚¼0HŸRMAJORZ
+CODE_SMELL
+Œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì–‡•8¯ª‰‚¼0HRMINORZ
+CODE_SMELL

@@ -1,0 +1,29 @@
+package com.Employee3;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class MainEmp3 {
+
+	public static void main(String[] args) {
+		
+		Employee3 e1 = new Employee3(01, "Abhi", 15000);
+		Employee3 e2 = new Employee3(02, "Rohan", 10000);
+		Employee3 e3 = new Employee3(01, "Sohan", 5000);
+		Employee3 e4 = new Employee3(01, "Mohan", 8000);
+		Employee3 e5 = new Employee3(01, "Goldy", 12000);
+		
+		Set<Employee3> list = new HashSet<>();
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		list.add(e5);
+		
+		list.stream().filter(e->e.grtSal()<10000).forEach(e->e.setSal(e.getSal()+5000));
+		System.out.println(list);
+		
+
+	}
+
+}

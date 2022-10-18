@@ -1,0 +1,33 @@
+package com.Employee1;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee emp1 = new Employee(112, "Abc", 80000);
+		Employee emp2 = new Employee(113, "bbb", 90000);
+		Employee emp3 = new Employee(110, "ccc", 70000);
+		Employee emp4 = new Employee(115, "ddd", 75000);
+		Employee emp5 = new Employee(114, "eee", 85000);
+		Employee emp6 = new Employee(116, "Abc", 80000);
+		
+		
+		Map<Employee, String> map = new LinkedHashMap<>();
+		map.put(emp1, "acompany");
+		map.put(emp2, "b...");
+		map.put(emp3, "c...");
+		map.put(emp4, "d...");
+		map.put(emp5, "e...");
+		map.put(emp6, "f...");
+		
+		System.out.println(map);
+		System.out.println(map.hashCode());
+		
+
+	}
+
+}
+
+

@@ -1,0 +1,30 @@
+package com.Passport;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class PassportApplicationTest {
+	@Test
+	void passportNationalityTest() {
+		PassportApplicant a1=new PassportApplicant("Abhishek", 20, "not Indian", "clear");
+		assertThrows(Nationality.class, ()->a1.passportEligibility());
+	}
+	@Test
+	void passportCriminalRecordTest() {
+		PassportApplicant a2=new PassportApplicant("Abhishek", 20, "Indian", "not clear");
+		assertThrows(CriminalRecord.class, ()->a2.passportEligibility());
+	}
+	@Test
+	void passportAgeTest() {
+		PassportApplicant a3=new PassportApplicant("Abhishek", 16, "Indian", "clear");
+		assertThrows(InvalidAge.class, ()->a3.passportEligibility());
+	}
+	@Test
+	void passportEligibityTest() throws InvalidAge, Nationality, CriminalRecord {
+		PassportApplicant a4=new PassportApplicant("Abhishek", 20, "Indian", "not clear");
+		boolean actual=a4.checkApplicantforPassport();
+		assertTrue(actual);
+	}
+
+}

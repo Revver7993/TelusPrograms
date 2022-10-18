@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author vinay
+ *
+ */
+module com.Test {
+	requires commons.logging;
+}

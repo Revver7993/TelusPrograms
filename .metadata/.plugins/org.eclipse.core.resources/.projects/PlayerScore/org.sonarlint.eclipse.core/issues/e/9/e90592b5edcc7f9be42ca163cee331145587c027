@@ -1,0 +1,14 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•œÒ¼ıÿÿÿÿH÷RMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8š‚¹·¼0HÌRMINORZ
+CODE_SMELL
+k	java:S106-"9Replace this use of System.out or System.err by a logger.(†£³¤8½½¶¼0HùRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ï«8ğ½¥·¼0HÀRMAJORZ
+CODE_SMELL
+|
+java:S3655,"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÎŠ‚¹8¸ğ£·¼0H´RMAJORZBUG
+n	java:S125"<This block of commented-out lines of code should be removed.(ï«8•ûÂ·¼0HÕRMAJORZ
+CODE_SMELL

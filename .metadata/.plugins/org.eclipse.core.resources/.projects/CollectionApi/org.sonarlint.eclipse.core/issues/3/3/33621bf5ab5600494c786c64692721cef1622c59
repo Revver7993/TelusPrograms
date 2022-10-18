@@ -1,0 +1,22 @@
+
+p
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8³á¿Ù¼0HßRMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8³á¿Ù¼0HáRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(ûÔ÷€8³á¿Ù¼0HãRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(í·çÜ8‚àü×¼0HäRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8íëÜÖ¼0HåRMAJORZ
+CODE_SMELL
+n	java:S125!"<This block of commented-out lines of code should be removed.(í·çÜ8³á¿Ù¼0HæRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ƒ”Ãçÿÿÿÿÿ8³á¿Ù¼0HéRMAJORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8³á¿Ù¼0HêRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿïñÜùÿÿÿÿHìRMINORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+
+t
+java:S1854
+"<Remove this useless assignment to local variable "eligible".(‡Ë©ùûÿÿÿÿ8ŒÏøŒ½0HŠ
+RMAJORZ
+CODE_SMELL
+e
+java:S1481
+"-Remove this unused "eligible" local variable.(‡Ë©ùûÿÿÿÿ8ŒÏøŒ½0H‹
+RMINORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆùÎğH
+RMINORZ
+CODE_SMELL

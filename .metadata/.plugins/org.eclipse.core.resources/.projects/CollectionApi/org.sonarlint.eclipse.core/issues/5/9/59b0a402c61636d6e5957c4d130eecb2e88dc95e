@@ -1,0 +1,9 @@
+
+K
+java:S2097 "Add a type test to this method.(ЌЬСг8яЬЯЊј0HмRMINORZBUG
+o
+java:S2259("CA "NullPointerException" could be thrown; "other" is nullable here.(їќЏ•8яЬЯЊј0HиRMAJORZBUG
+n	java:S125!"<This block of commented-out lines of code should be removed.(Ы–Іэ8яЬЯЊј0HвRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™’ђ»HбRMINORZ
+CODE_SMELL

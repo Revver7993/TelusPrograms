@@ -1,0 +1,49 @@
+package com.Employee;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class MainEmp {
+
+	public static void main(String[] args) {
+		Map<Integer, Employee> eMap = new TreeMap<>();
+		Employee e1 = new Employee(111, "Abhi", 25000);
+		Employee e2 = new Employee(112, "Raja", 20000);
+		Employee e3 = new Employee(113, "Pravin", 18000);
+		Employee e4 = new Employee(114, "Shivam", 15000);
+		Employee e5 = new Employee(115, "Anoop", 21000);
+		
+		eMap.put(111, e1);
+		eMap.put(112, e2);
+		eMap.put(113, e3);
+		eMap.put(114, e4);
+		eMap.put(115, e5);
+		
+		
+//		Collections.sort(list,(x,y)->x.id-y.id); Sorting with Collections 
+//		System.out.println(list);
+		
+//		System.out.println(Collections.max(list,(x,y)->x.getId()-y.getId())); Finding Max Using Collections Class
+		
+//		Collections.sort(list,Collections.reverseOrder((x,y)->x.getSal()-y.getSal()));	Sorting according Salary with Collection Class in reverse order
+//		System.out.println(list);
+		
+//		list.stream().filter(x->x.getSal()<20000).forEach(x->x.setSal(x.getSal()+5000)); // Adding Bonus Using Lambda
+//		System.out.println(list);
+		
+//		Set<Employee> set = list.stream().collect(Collectors.toSet()); // Converting list to set
+//		System.out.println(set);
+		
+		for(Employee e:list) {             // Adding bonus with Enhanced for loop
+			if (e.getSal()<20000) {
+				e.setSal(e.getSal()+5000);
+			}
+			
+		}
+		System.out.println(list);
+
+	}
+
+}

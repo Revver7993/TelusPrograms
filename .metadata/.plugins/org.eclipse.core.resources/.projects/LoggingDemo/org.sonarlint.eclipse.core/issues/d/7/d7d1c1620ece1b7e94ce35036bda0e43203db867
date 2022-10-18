@@ -1,0 +1,12 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆùÎğH
+RMINORZ
+CODE_SMELL
+š
+java:S1192"dDefine a constant instead of duplicating this literal "Error occured while applying DL for" 5 times.(»æ¥8ã¦©½0H•
+RCRITICALZ
+CODE_SMELL
+|
+java:S1192"FDefine a constant instead of duplicating this literal "clear" 4 times.(ËÎêæ8÷¢•½0H
+RCRITICALZ
+CODE_SMELL

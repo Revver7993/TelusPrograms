@@ -1,0 +1,31 @@
+package com.DlVerification;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Applicant a1 = new Applicant(17, "Rohan", true, true);
+		Applicant a2 = new Applicant(18, "Mohan", false, true);
+		Applicant a3 = new Applicant(19, "Sohan", true, false);
+		Applicant a4 = new Applicant(20, "Goldy", true, true);
+		Applicant a5 = new Applicant(21, "Soldy", true, true);
+
+		System.out.println(verifyApplicant(a1));
+		System.out.println(verifyApplicant(a2));
+		System.out.println(verifyApplicant(a3));
+		System.out.println(verifyApplicant(a4));
+		System.out.println(verifyApplicant(a5));
+
+	}
+
+	private static String verifyApplicant(Applicant applicant) {
+		if(applicant.getAge()>=18 && applicant.isPoliceVerification() && applicant.isMedicalVerification()) {
+			return "Applicant is Eligible";
+		}
+		return "Applicant is not Eligible";
+		
+
+	}
+	
+
+	
+}

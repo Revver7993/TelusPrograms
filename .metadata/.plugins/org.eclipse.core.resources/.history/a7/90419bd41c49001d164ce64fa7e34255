@@ -1,0 +1,17 @@
+package com.ComparableDemo;
+
+public class StudMain {
+
+	public static void main(String[] args) {
+		Student s1= new Student(95,"Abhishek");
+		Student s2= new Student(85,"Rohan");
+		
+		Integer e1=95;
+		Integer e2=85;
+		int comapreTo = e1.compareTo(e2);
+		System.out.println(compareTo);
+		
+
+	}
+
+}

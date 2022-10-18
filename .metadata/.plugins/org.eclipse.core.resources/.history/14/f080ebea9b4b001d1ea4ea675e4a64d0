@@ -1,0 +1,10 @@
+package com.Passport;
+
+public class PassportApplicationTest {
+	@Test
+	Void passportNationalityTest( ) {
+		PassportApplicant a1=new PassportApplicant("Abhishek", 20, "not Indian", "clear");
+		asserThrows(Nationality.class,)
+	}
+
+}

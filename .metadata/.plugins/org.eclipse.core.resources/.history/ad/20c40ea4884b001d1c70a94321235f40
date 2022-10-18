@@ -1,0 +1,11 @@
+package com.Passport;
+
+public class Applicant {
+	
+	Log logger = LogFactory.getLog(Applicant.class);
+	
+	public void pEligibility() throwa InvalidAge, Nationality, CriminalRecord {
+		boolean eligible=checkApplicantforPass
+	}
+
+}

@@ -1,0 +1,9 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢üáåşÿÿÿÿHÏRMINORZ
+CODE_SMELL
+K
+java:S2097"Add a type test to this method.(ÜÑã8ä‰”¼0HÕRMINORZBUG
+n	java:S125"<This block of commented-out lines of code should be removed.(Û–²ı8ä‰”¼0HÖRMAJORZ
+CODE_SMELL
+r
+java:S2259"AA "NullPointerException" could be thrown; "emp" is nullable here.(°íõ¸øÿÿÿÿ8ğîÏ¼0H¡RMAJORZBUG

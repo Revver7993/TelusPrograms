@@ -1,0 +1,14 @@
+package com.Passport;
+
+import static org.junit.jupiter.api.Assertions;*
+
+import org.junit.jupiter.api.Test;
+
+public class PassportApplicationTest {
+	@Test
+	Void passportNationalityTest( ) {
+		PassportApplicant a1=new PassportApplicant("Abhishek", 20, "not Indian", "clear");
+		assertThrows(Nationality.class, ()->a1.passportEligibility());
+	}
+
+}
